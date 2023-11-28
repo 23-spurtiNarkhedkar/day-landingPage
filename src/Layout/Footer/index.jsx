@@ -1,13 +1,13 @@
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import {FooterStyled} from "./footer.styled";
-import {footerLinks} from "./footerData";
+import { Col, Container, Row } from "react-bootstrap";
+import { FooterStyled } from "./footer.styled";
+import { footerLinks } from "./footerData";
 import FooterListLinks from "./FooterListLinks";
 import FooterNewsLetter from "./FooterNewsLetter";
 import FooterSquare from "./FooterSquare";
 
 const Footer = () => {
-  const {usefulLinks, servicesLinks} = footerLinks;
+  const { usefulLinks, servicesLinks } = footerLinks;
   return (
     <>
       <FooterStyled>
@@ -20,37 +20,39 @@ const Footer = () => {
             <Col sm={12} md={6} lg={2}>
               <FooterListLinks {...usefulLinks} />
             </Col>
-            <Col sm={12} md={6} lg={2}>
+            {/* <Col sm={12} md={6} lg={2}>
               <FooterListLinks {...servicesLinks} />
-            </Col>
-            <Col md={12} lg={4}>
+            </Col> */}
+            <Col md={12} lg={6}>
               <FooterNewsLetter />
             </Col>
           </Row>
           <hr />
           <div className="d-flex align-items-center justify-content-between pb-3">
-            <span style={{fontSize: "15px"}}>
-              Made by
+            <span style={{ fontSize: "15px" }}>
+              ASPA Enterprise
               <a
+                // in href add store url
                 href="https://github.com/omar1Mayallo"
-                style={{color: "var(--ds-blood)", textDecoration: "underline"}}
+                style={{ color: "var(--ds-blood)", textDecoration: "underline" }}
                 target="_blank"
                 rel="noreferrer"
               >
-                &nbsp;OTM
+                &nbsp;ASPA
               </a>
             </span>
-            <span>
+            {/* <span>
               Template which I inspired from
               <a
                 href="https://bootstrapmade.com/demo/templates/Day"
-                style={{color: "var(--ds-blood)", textDecoration: "underline"}}
+                style={{ color: "var(--ds-blood)", textDecoration: "underline" }}
                 target="_blank"
                 rel="noreferrer"
               >
                 &nbsp;here
               </a>
-            </span>
+            </span> */}
+
           </div>
         </Container>
       </FooterStyled>

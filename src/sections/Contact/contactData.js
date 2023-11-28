@@ -1,20 +1,20 @@
-import {MdOutlineLocationOn, MdOutlineEmail} from "react-icons/md";
-import {BiPhoneCall} from "react-icons/bi";
+import { MdOutlineLocationOn, MdOutlineEmail } from "react-icons/md";
+import { BiPhoneCall } from "react-icons/bi";
 
 export const contactInfo = [
   {
     Icon: MdOutlineLocationOn,
     title: "Our Address",
-    text: "A108 Adam Street, New York, NY 535022",
+    text: "H206, Three Jewels Branch Office:103, Tahmane Terrace",
   },
   {
     Icon: MdOutlineEmail,
     title: "Email Us",
-    text: "contact@example.com",
+    text: "aspaenterprises7@gmail.com",
   },
   {
     Icon: BiPhoneCall,
-    title: "Call Us",
-    text: "+1 5589 55488 55",
+    title: "24/7 service Call Us",
+    text: "+91 9370078614",
   },
 ];

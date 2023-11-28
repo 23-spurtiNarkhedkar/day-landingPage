@@ -20,8 +20,8 @@ const Landing = () => {
         <Home />
         <About />
         <Services />
-        <Portfolio />
-        <Pricing />
+        {/* <Portfolio /> */}
+        {/* <Pricing /> */}
         <Team />
         <Contact />
       </main>

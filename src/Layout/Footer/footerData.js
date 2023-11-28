@@ -1,7 +1,7 @@
 export const footerLinks = {
   usefulLinks: {
     head: "Useful Links",
-    links: ["Home", "About", "Services", "Portfolio", "Contact"],
+    links: ["Home", "About", "Services", "Process", "Contact"],
   },
   servicesLinks: {
     head: "Our Services",

@@ -8,9 +8,8 @@ const Contact = () => {
   return (
     <SectionContainer id={"contact"} secName={"contact-sec"}>
       <SectionHead
-        head={"contact"}
-        text={
-          "Sit sint consectetur velit quisquam cupiditate impedit suscipit alias"
+        head={"contact us"}
+        text={"We would Love To Help You Please feel free to get in touch using the form below. We'd love to hear your thoughts & answer any questions you may have!"
         }
       />
       <ContactInfoBlock />

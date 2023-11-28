@@ -1,5 +1,5 @@
 import React from "react";
-import {FooterSquareStyled} from "./footer.styled";
+import { FooterSquareStyled } from "./footer.styled";
 import {
   FaFacebookF,
   FaInstagram,
@@ -10,10 +10,10 @@ import {
 const FooterSquare = () => {
   return (
     <FooterSquareStyled>
-      <h3>Day</h3>
-      <p className="mb-3">A108 Adam Street NY 535022, USA</p>
-      <p className="mb-1">Phone: +1 5589 55488 55</p>
-      <p className="mb-1">Email: info@example.com</p>
+      <h4>ASPA Enterprise</h4>
+      <p className="mb-3">H206, Three Jewels Branch Office:103, Tahmane Terrace</p>
+      <p className="mb-1">Phone: +91 8879004628</p>
+      <p className="mb-1">Email: aspaenterprises7@gmail.com</p>
       <ul>
         <li>
           <FaFacebookF />

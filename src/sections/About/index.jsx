@@ -1,11 +1,11 @@
 import React from "react";
-import {Col, Image} from "react-bootstrap";
+import { Col, Image } from "react-bootstrap";
 import SectionContainer from "../../components/SectionContainer";
 import AboutBlocks from "./AboutBlocks";
 import AboutSponsor from "./AboutSponsor";
-import {AiOutlineCheckCircle} from "react-icons/ai";
-import {RowReversedStyled} from "./About.styled";
-import {paragraphs} from "./aboutData";
+import { AiOutlineCheckCircle } from "react-icons/ai";
+import { RowReversedStyled } from "./About.styled";
+import { paragraphs } from "./aboutData";
 import aboutImage from "../../assets/about.jpg";
 
 const About = () => {
@@ -14,13 +14,11 @@ const About = () => {
       <SectionContainer id={"about"} secName={"about-sec"}>
         <RowReversedStyled className="my-2">
           <Col lg={6} className="mb-3">
-            <h3>
-              Voluptatem dignissimos provident quasi corporis voluptates sit
-              assumenda.
-            </h3>
+            <h2>
+              Why Choose Us
+            </h2>
             <p className="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              "Aspa Enterprises: Your Catalyst for Excellence. Since 2018, we've pioneered high-quality, cost-effective solutions in jaggery and specialty chemicals, shaping industries with our expert advisory services."
             </p>
             <ul>
               {paragraphs.map((par, idx) => (
@@ -35,11 +33,7 @@ const About = () => {
               ))}
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-              irure dolor in reprehenderit in voluptate velit esse cillum dolore
-              eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-              proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum
+              Aspa enterprises is one of the consultancy service providing enterprise which helps our clients to provide high quality, cost effective products and provide advisory services. Aspa enterprises was established in 2018, and till date we have started 2 chemical plant units out of which one of them was a jaggery based company and other was in speciality chemicals.
             </p>
           </Col>
           <Col lg={6} className="mb-3">
